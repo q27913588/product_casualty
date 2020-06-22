@@ -22,7 +22,7 @@ body {
 }
 .section-body{
 
-    background-image: url("./asset/pexels-photo-188035.jpeg") ;
+    background-image: url("./asset/beach-calm-clouds-idyllic-457882.png") ;
     background-size: 100%;
     text-align: center;
     height: 350px;
@@ -55,6 +55,9 @@ li{
 strong{
     color: #3565af !important;
 } 
+p{
+    letter-spacing: .5px;
+}
 @media only screen and (max-width: 768px) {
     .section-body{
         height: 250px;

@@ -1,0 +1,71 @@
+body {
+ 
+    /* Resize the background image to cover the entire container */
+    font-family: NotoSansCJKtc Microsoft JhengHei; 
+    font-size: 14px;
+    /* background-image: url("./asset/bg-img-line.png"),
+    url("./asset/Logo_bg.png"),
+    linear-gradient(#00b7e5, #0081c6);
+  background-size: 100%, 40%, 100%;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 0 50px, bottom left, 0;  */
+
+}
+.banner-h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: white;
+    margin-top: 150px;
+    text-align: left;
+ 
+}
+.section-body{
+
+    background-image: url("./asset/pexels-photo-188035.jpeg") ;
+    background-size: 100%;
+    text-align: center;
+    height: 350px;
+    background-position: center ;
+    background-size: cover;
+   
+    /* background-repeat: no-repeat; */
+}
+.text-bold{
+    font-size: 14px;
+    font-weight: 500;
+}
+.text-question{
+    color: #3565af;
+    text-align: center;
+    font-size: 20px;
+}
+.btn-contact{
+background-color: #3565af;    
+color: white !important;
+font-weight: 500;
+text-align: center;
+}
+a{
+    color: #696969 !important;
+}
+li{
+    margin-top: 3px !important;
+}
+strong{
+    color: #3565af !important;
+} 
+@media only screen and (max-width: 768px) {
+    .section-body{
+        height: 250px;
+    }
+    .banner-h1{
+        font-size: 40px;
+        font-weight: 400;
+        color: white;
+        margin-top: 170px;
+        text-align: left;
+     
+    }
+    
+}
